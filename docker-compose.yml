@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  rag-api:
+    build: ./rag-backend
+    container_name: rag_api
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - QDRANT_HOST=vector-db
+    restart: always
+    depends_on:
+      - vector-db
+
+  vector-db:
+    image: qdrant/qdrant:latest
+    container_name: qdrant_db
+    ports:
+      - "6333:6333"
+    volumes:
+      - ./qdrant_data:/qdrant/storage
+    restart: always

@@ -1,0 +1,971 @@
+BASE DE CONOCIMIENTOS - PREGUNTAS FRECUENTES Y PROCEDIMIENTOS INTERNOS
+========================================================================
+
+Tema de consulta: borrar dealer
+Preguntas comunes de los usuarios:
+- No vimos como podemos borrar un dealer
+- como hago para borrar un dealer
+- Existe la opción de borrar dealers?
+- hay alguna forma de borrar un dealer?
+- borrar dealers en Beat
+- para borrar un dealer de beat hay que pedirselos a ustedes o podemos hacerlo nosotros?
+- necesito eliminar un dealer de beat pero no encuentro la opción
+- necesito que me ayuden a eliminar unos dealers de beat
+- puedo eliminar un dealer de beat o lo eso lo tienen que hacer ustedes
+- como puedo hacer para eliminar un dealer de beat
+Respuesta técnica:
+Por el momento no existe una opción para borrar dealers.
+========================================
+
+Tema de consulta: demora actualización beat
+Preguntas comunes de los usuarios:
+- es normal que quede actualización pendiente
+- las actualizaciones por beat demoran mucho tiempo
+- cuanto tiempo suelen demorar las actualizaciones por beat
+- cuanto es lo normal que lleva actualizar por beat
+- cuanto tiempo lleva normalmente cambiar un firmware por beat
+- estoy actualizando un equipo por beat pero me queda en pendiente
+- estoy actualizando un firmware por beat pero demora mucho
+- cuanto tiempo suelen demorar las actualizaciones por beat
+- hace ya un rato largo realice una actualizacion por beat y aun no se completa
+- es normal que quede actualización pendiente
+- es normal que demore tanto en actualizar
+Respuesta técnica:
+Al hacer una actualización remota hay que esperar a que el equipo se comunique con Beat. Lo hace una vez cada 4 horas. Queda como actualización pendiente hasta que cargue la actualización. 
+========================================
+
+Tema de consulta: Como acceder a Beat
+Preguntas comunes de los usuarios:
+- Estoy tratando de ingresar a beat y me pide usuario y contraseña?
+- Estoy tratando de ingresar a beat y me pide usuario y contraseña?
+- Como tengo acceso a beat?
+- Como hago para ingresar a beat
+- Donde me tengo que registrar para ingresar a para ingresar a beat
+- Para tener acceso a beat me tengo que registrar o me dan un usuario ustedes?
+- como se ingresa a beat?
+- Como me doy de alta en beat
+- No se como se da de alta en beat
+Respuesta técnica:
+Para poder hacer uso de la plataforma Beat, primero se deberá ingresar a la misma en beat.netio.com.ar y solicitar acceso completando el formulario. Cuándo una empresa solicita acceso a la plataforma se creará una cuenta Dealer y un usuario de acceso. Una vez hayamos procesado la solicitud los datos del usuario serán enviados por correo.
+https://www.youtube.com/watch?v=6lW0LF9wpoI&list=PL9b8g4bpxSReQCu_IW2bqnQzW7ejJ9We6&index=1
+========================================
+
+Tema de consulta: Desconexión de un equipo en Beat
+Preguntas comunes de los usuarios:
+- ¿Cuánto tiempo tarda BEAT en marcar un equipo como desconectado?
+- ¿Cuánto tiempo tarda BEAT en marcar un equipo como desconectado?
+- cuanto tiempo tiene que estar un equipo sin comunicar para que beat lo muestre desconectado
+- cuanto tiempo tiene que estar un equipo sin comunicar para que beat lo muestre desconectado
+- que demora beat en mostrar un equipo como desconectado
+- que demora beat en mostrar un equipo como desconectado
+- en beat estoy viendo un equipo que figura como conectado pero no esta transmitiendo nada
+- tengo un equipo apagado pero en beat me figura como conectado aun
+- tengo un equipo apagado pero en beat lo sigo viendo como conectado
+Respuesta técnica:
+La plataforma Beat puede demorar hasta 24 horas en mostrar un equipo como desconectado y cuando el equipo vuelve a comunicar aparecera automaticamente y sin demora como conectado.
+========================================
+
+Tema de consulta: Pánico geolocalizado
+Preguntas comunes de los usuarios:
+- como funciona el pánico geolocalizado
+- Cómo funciona el comando de Click de pánico geolocalizado
+- Qué comando configuro para la geolocalización
+- cómo identifico yo la geolocalización
+- Puede que hay un comando que manda geolocalización
+- Hay manera de que los pánicos salgan con geolocalización?
+- donde puedo ver el pánico geolocalizado
+- el pánico geolocalizado es un comando de click?
+- Hay manera de que los pánicos salgan con geolocalización?
+- consulta el pánico geolocalizado que está para agregar como es su funcionamiento
+- El pánico geolocalizado que diferencia tiene del pánico del teclado?, como lo utiliza el cliente?
+Respuesta técnica:
+El pánico geolocalizado no involucra a la alarma ni al comunicador y en la central de monitoreo se visualiza como un pánico normal. El pánico geolocalizado funciona a través del GPS del celular, se envía la zona en la cual se encuentra la persona y avisa a todos los que estén asociados a la misma cuenta, el evento llega acompañado de un mapa de Google Maps con la ubicación marcada, solo se puede observar en el histórico de eventos de la aplicación de Click Mánager. Se encuentra entre los comandos predeterminados.
+========================================
+
+Tema de consulta: Pánico retrasado
+Preguntas comunes de los usuarios:
+- Como configuro en un ntlink el tema del pánico retrasado
+- Como configuro en un ntlink el tema del pánico retrasado
+- Me interesa mucho el comando de pánico retrasado entraderas
+- Quiero mandar un pánico retrasado como seria?
+- Se le puede cambiar el tiempo al panico retrasado?
+- de que se trata el pánico retrasado?
+- me explican como funciona el pánico retrasado?
+- Necesito editar el tiempo de un pánico retrasado
+- Que es un pánico retrasado
+Respuesta técnica:
+Cuándo se envía el comando de pánico retrasado desde la app, comienza un contador de 5 minutos, cuando termina envía un evento de pánico. Si antes de eso vuelve a enviar el mismo comando se cancela y no envía el pánico
+========================================
+
+Tema de consulta: Tiempos de los comandos
+Preguntas comunes de los usuarios:
+- Estoy teniendo un delay demora desde cada comando por app hasta que llega al panel
+- que tiempos serían normales para la ejecución de los comandos
+- Cuales son los tiempos normales de los comandos hasta que llegan al equipo
+- están tardando mucho los comandos
+- es mucho el tiempo que pasa desde que acciono un comando
+- los comandos tardan mas tiempo de lo esperado
+- porque tardan tanto tiempo en ejecutarse los comandos
+- desde que acciono un comando hasta que suena la alarma pasa mucho tiempo
+- cuando envío un comando se demora mucho en responder
+Respuesta técnica:
+El tiempo óptimo de ejecución de comandos es de 2 a 10 segundos. Muchas veces la demora está en la conexión a internet del comunicador y otras en la conexión del teléfono que envía el comando. Se pueden verificar los niveles de señal del comunicador en la plataforma Beat.
+========================================
+
+Tema de consulta: Logo
+Preguntas comunes de los usuarios:
+- Cómo puedo cargar el logo de mi empresa en la app?
+- Cuáles son las características del archivo para subir el logo?
+- quiero que en la app de los clientes aparezca el logo de mi empresa
+- Me dijeron que podrían alojarme una imágen para el skin de la app
+- Si entro a click mánager y en donde está la parte de modificación de URL del logo?
+- a donde tengo que enviar la imágen del logo de la empresa para que aparezca en la app de mis clientes
+- cual es el formato de la imágen para el logo
+- el logo tiene que tener alguna medida en especial?
+- Veo que en la página se puede modificar el skin en que formato tiene que estar la imágen
+- tienen alguna guia de como configurar el logo correctamente
+- quería saber si se puede hacer con el logo
+- Como personalizo el logo en la app?
+- ustedes tienen donde alojar la imagen para el logo?
+- quisiera que mi imagen salga en la App y no la que trae por defecto
+- le puedo cambiar el logo a la app para usar el de mi empresa?
+Respuesta técnica:
+El logo que utilizara en la app Click tiene que estar alojado en un sitio con acceso publico. La imágen tiene que ser 250x250 píxeles, fondo transparente, formato .png. Si no tiene host puede cargar su logo en Beat, apartado Organizaciones > Editar organización donde obtendrá una URL o lo pueden enviar a soporte@netio.com.ar y se les devolverá una URL que es la que van a cargar en la parte de SKIN de la plataforma Click Mánager.#5. Personalización de logo y colores en la aplicación: https://youtu.be/BPTeLuMy7IU
+========================================
+
+Tema de consulta: Teclado Virtual en la aplicación
+Preguntas comunes de los usuarios:
+- En la partición no le muestra el teclado a pesar de tenerlo habilitado en la plataforma
+- Hace poco se intentó tener acceso desde un Iphone al teclado virtual sin poder conseguirlo
+- Click tiene teclado virtual para que lo pueda usar el cliente final?
+- No me mostró mas el teclado
+- el teclado que no aparece a veces
+- Para habilitar el teclado virtual desde CLICK, necesito algo mas aparte de habilitarlo en el CLICK MANAGER?
+- Desde android pude desactivar con el teclado virtual, pero en iPhone note que no aparece la opcion del teclado virtual
+- Hay posibilidades de que el usuario tenga el teclado en la app teniendo iphone ios
+- Aunque sea IOS el teclado virtual debe aparecer igual no?
+- Instale la app en un iPhone y no me muestra el teclado porque podría ser, funciona con la misma app que android?
+- Porque la app no habilita el teclado en un IPHONE
+- Al cliente no le aparece el teclado virtual, desinstaló volvió a instalar y sigue igual
+- Acabo de instalar una App en un iPhone le tildó el historial y el teclado, pero solo le aparece el listado del historial
+- Si han utilizado la aplicación en un celular Iphone, dado que no me deja ver el teclado
+- A mi me aparece el teclado virtual en el android y en el ios no
+- Cómo habilitar el teclado virtual
+Respuesta técnica:
+Para habilitar el teclado virtual de la app click, se debe ingresar en la plataforma de Click Mánager, Cuenta, Dispositivos, se ingresa en el dispositivo, pestaña configuración y se tilda la opción de teclado.
+- Manual de usuario App Click: https://drive.google.com/file/d/1sm1OFaJw1-8k-v-ixAPJmY9u1tuvxKhV/view
+========================================
+
+Tema de consulta: Zonas en el teclado virtual
+Preguntas comunes de los usuarios:
+- Un cliente me pregunta si en la app hay manera de ver más de 8 zonas cuando ve el teclado virtual
+- Porque no puedo ver que zona esta abierta en el teclado de la aplicación
+- en el teclado de la app solo veo 8 zonas
+- el teclado de la app no me esta mostrando todas las zonas
+- Cómo puede saber el cliente que zonas están abiertas para poder anularlas
+- En todos los sistemas veo desde el teclado de click las zonas abiertas de la 1 a la 8 pero no de la 9 en adelante
+- Tengo una DSC 1616 y estoy utilizando las 16 zonas, pero en el teclado de la App aunque están dibujadas las 16 zonas solo las primeras 8 funcionan.
+- Desde la app, en la ventana donde puedo ver el estado de las zonas y el estado de la alarma, solo me refleja correctamente las zonas de la 1 a la 8
+- El cliente también solicita que se pueda ver que zona esta abierta para poder anularla
+- Lo único que todavía no pude configurar es el monitoreo de zonas, para saber cual está abierta antes de activar la alarma
+Respuesta técnica:
+La información de las zonas que muestra el teclado virtual en tiempo real está limitada a 8 zonas por el momento. Para ver el estado del resto de las zonas puede utilizar el comando de anular zona.
+https://drive.google.com/file/d/1KAdOaIu9rShoil902YE9NPctDKFJ2FD-/view?usp=sharing
+========================================
+
+Tema de consulta: Comando anular zona
+Preguntas comunes de los usuarios:
+- Con respecto al comando anulación de zonas, como funciona, hay que programar algo más?
+- Un cliente quiere poder anular zonas de manera individual
+- En click tengo el dispositivo en funcionamiento una de las opciones dice anular zona, no sabria como seleccionar qué zona se anulará
+- Anular zonas se puede desde la app?
+- tengo que poner un botón para anular zona era reemplazar zona por el número o los numerales y zona
+- Quería realizar una consulta en click instalada la app en iphone como ve el usuario para anular zonas y las ya anuladas?
+- tienen algún manual de como anular una zona
+- el comando para anular una zona se puede modificar?
+- Ya funciona la anulación de zonas en Android donde te permite elegir
+- Necesito saber como bypasear zonas en la aplicación
+- Me pasan como se anula zona de DSC desde la app
+- Necesito saber cómo bypasseo una zona
+Respuesta técnica:
+Archivo de como editar el comando anular zona https://drive.google.com/file/d/1KAdOaIu9rShoil902YE9NPctDKFJ2FD-/view?usp=sharing
+y aqui le compartimos un video https://youtu.be/HeQ9OyDZOvQ
+========================================
+
+Tema de consulta: click en ios
+Preguntas comunes de los usuarios:
+- En dispositivo con iOS no es compatible la app
+- Funciona la click en la iphone?
+- en un iphone no aparece para bajar la app
+- Quería consultar si funciona bien el click con iPhone
+- Tengo un cliente con iphone que no puede configurar la app
+- La app funciona para iOS
+- hay una versión de la app para iphone
+- la app en iphone funciona igual que en android
+- La app de click está para iphone?
+- No puedo encontrar click en el istore
+- hay una versión de click para iphone?
+- Para instalar click en iOS?
+- Esta versión beta está disponible para iOS
+Respuesta técnica:
+common_response_click_app_manual
+========================================
+
+Tema de consulta: no puedo ingresar a la app
+Preguntas comunes de los usuarios:
+- no puedo ingresar a la app click
+- Buenas no se puede entrar a la aplicación click
+- La app pide mail y contraseña
+- La aplicación click que le pide loguearse y no recuerda la contraseña
+- al iniciar sesion me pide un mail y contraseña
+- apenas se actualiza la App para iniciar sesión por primera vez el e-mail y contraseña son cualquiera la primera vez o qué credenciales deben ingresar
+- se actualizo automáticamente la app netio en mi celular y ahora no reconoce mi usuario para poder utilizarla
+- La aplicación se borró y me dice que el usuario no existe 
+- ¿Qué debería poner después de usuario y contraseña? Ingresar, Ingresar con Google, Registrarse?
+- Tengo un cliente con android que cerró sesión no se como hizo
+- Actualizaron la app Por qué no me deja entrar me dice usuario inexistente
+- Y además los que tienen android ahora les pide iniciar sesión
+- Los que tienen IOS les pide volver a poner la clave
+- Los clientes me consultan porque ahora deben ingresar un código
+- Tengo varios clientes consultando por este cambio que no les permite el ingreso
+Respuesta técnica:
+common_response_click_app_manual
+========================================
+
+Tema de consulta: Eliminar cuentas de click manager
+Preguntas comunes de los usuarios:
+- Hay una cuenta en CLICK MANAGER que no es mía, como hago para eliminarla?
+- En la app de click como hago para eliminar algunas cuentas?
+- En click manager tengo varias de estas cuentas que no son mías o me aparecen no se por que, las puedo eliminar?
+- Si quisiera eliminar cuentas de click como debería hacer
+- tengo cuentas que se crearon y no uso más como hago para limpiar el click manager
+- quiero eliminar cuentas de click manager que ya no se usan mas
+- como hago para eliminar las cuentas que ya no estan en uso?
+- se pueden eliminar las cuentas de click manager?
+- como hago para eliminar una cuenta en click manager?
+- Me pasas la dirección para eliminar una cuenta de click, migrar
+- Elimino esta cuenta la migro a que mail
+- Como elimino del manager cuentas que se cargaron para prueba y no se utilizan?
+Respuesta técnica:
+No se pueden eliminar, pero se pueden migrar a: eliminar.cuentaclick@netio.com.ar.
+Es conveniente, antes de migrarla, que le desasocie todos los telefonos que tenga asociados a esa cuenta porque despues no lo va a poder hacer.
+========================================
+
+Tema de consulta: Asociar dispositivos
+Preguntas comunes de los usuarios:
+- Tengo un cliente que cambio el celular y ahora no lo encuentro para asociarlo a la cuenta
+- Bajo el programa volvió a llenar el registró y no puedo asociar la cuenta en su teléfono nuevo
+- me podría decir como hago para asociar un telefono a una cuenta?
+- para dispositivos nuevos se completa el formulario y se vincula como siempre verdad
+- como agrego un telefono nuevo a una cuenta?
+- Cómo agrego un nuevo dispositivo?
+- un cliente ya instalo la app y lleno los datos pero no lo encuentro para agregarlo
+- Para agregar un dispositivo que ya está habilitado hay que entrar en la cuenta y en la parte de dispositivos hay que asociarlo?
+- un cliente quiere realizar la instalación de otro dispositivo con la aplicación de clic pero si hago el mismo proceso que hicimos anteriormente no me aparece el nuevo usuario
+- Se refiere a que no aparece cuando lo busca para asociar el movil a la cuenta del comunicador?
+- ahora estoy buscando en la cuenta de click manager para asociarlo
+- ya tengo instalada la aplicación ahora tengo que agregarle las cuentas
+- ya baje la aplicación y llene el registro ahora tengo que asociarlo a una cuenta
+- despues de instalar la aplicación como hago para que le aparezcan las cuentas en la app
+- como configuro un dispositivo desde click manager
+- Como asocio un dispositivo?
+Respuesta técnica:
+Para asociar un dispositivo a una cuenta debe hacerlo desde la plataforma Click Mánager. No hay limite en la cantidad de dispositivos que se pueden asociar a una cuenta ni tampoco en la cantidad de cuentas a las que puede estar asociado un dispositivo. Aqui le dejo un pequeño video para que se guie en esta simple tarea.
+ #3. Asociar y editar dispositivos: https://youtu.be/VdPtNVyi_EQ
+========================================
+
+Tema de consulta: Comercial
+Preguntas comunes de los usuarios:
+- Buenos días me podrían mandar 2 cables nuevos por favor y me pasan la factura
+- Tengo que comprar urgente un Nt-com 3
+- Aprovecho para pedirte otro comunicador wifi
+- Necesito comprar 5 equipos Ipcom
+- Ustedes tienen para vender?
+- Queria saber precio de un click para una alarma dsc
+- Ustedes venden al gremio o tengo que ir al mayorista en rosario?
+- A qué número puedo comunicarme para hablar con la parte comercial
+- Necesito comprar x  cantidad de equipos
+- Cuál es el precio de un Ntlink?
+- Vos tenés idea de los costos ?
+- Necesito comprar 5 equipos Ipcom
+- Quisiera consultar por stock
+- Necesito comprar 30 comunicadores gprs
+- me podrias pasar el numero de alguien de ventas
+- necesito pedir cotización y comprar equipos
+- si necesito comprar una tanda de comunicadores tenes algún contacto para darme?
+- tengo que cotizar para una empresa 3 comunicadores de alarma
+- Consulto necesito adquirir dos compras de dos comunicadores ustedes hacen la venta directa?
+Respuesta técnica:
+Para estas cuestiones comerciales puede comunicarse con Cecilia al 1141723215 que ella podrá asesorarte.
+========================================
+
+Tema de consulta: Paneles de alarma compatibles
+Preguntas comunes de los usuarios:
+- Tendrán la lista de paneles compatibles
+- Los comunicadores son compatibles con los paneles
+- Cuáles son las versiones de paneles?
+- Tengo una placa sirve para usar con un ntlink?
+- Panel es compatible con equipos wifi
+- A las placas 1565 se le puede poner un ntlink?
+- Los equipos son compatibles con el?
+- un panel ustedes saben si es compatible con ntlink?
+- con que paneles son compatibles los equipos
+- Es compatible el comunicador con la placa neo?
+- alguien puede saber si los ntlink  puede andar en
+- Queremos saber si los equipos son compatibles con paneles
+- El comunicador NT WiFi viene para la central de alarma?
+- Quería consultar si un ntlink funciona con una?
+- En el caso de la funcionan los ntlink?
+- los comunicadores son compatibles para ese modelo con?
+- queria saber si se podian reutilizar cambiando el firmware
+- El equipo  sirve para un
+- en que paneles puedo usar los comunicadores wifi
+- que paneles funcionan los comunicadores?
+- los equipos que estamos usando con sirven también para usar con las?
+- todos los comunicadores son compatibles con?
+- Qué paneles son compatibles con los comunicador?
+- El comunicador WiFi lo puedo usar con cualquier panel de alarma?
+- Qué paneles puedo programar con el ntlink
+- Con qué modelos de alarma es compatible el ntlink?
+- todos los equipos son compatibles con todos los paneles?
+- Los comunicadores para son equipos específicos
+- El nt link es compatible con ?
+- Se puede usar un equipo que está para en un cambiando algo de programación o son diferentes los equipos?
+- Para un panel a2k4 hay que pedir el módulo específico?
+- Hay posibilidad de un equipo 4g reprogramarlo para un a2k8?
+- Se puede usar ese comunicador a2k para una central ?
+- Es posible conectar una central a estos comunicadores?
+- Un equipo con firmware lo pueden pasar para ?
+- Puedo usar un equipo con firmware
+- son compatibles los equipos
+- para poder usar la app click con un panel y un nt link preparado para
+- se puede actualizar el firmware para que funcione con
+- puedo usar mi equipo con un panel
+- los equipos son compatibles con los paneles?
+- se puede actualizar mi equipo para que funcione con una a2k4
+- es la primera vez que estamos usando un equipo de ustedes
+Respuesta técnica:
+
+========================================
+
+Tema de consulta: Equipos compatibles con la app
+Preguntas comunes de los usuarios:
+- ¿Cuáles son los modelos actuales que venden que sean compatibles con la app?
+- que modelos de comunicadores son compatibles con click
+- que equipos son compatibles con click
+- los equipos que tengo se pueden usar con la app?
+- La App funciona igual sea cual sea el comunicador?
+- los equipos wifi se pueden usar con la app?
+- los equipos wifi son compatibles con click?
+- cuales son los equipos que se pueden usar con click
+- que equipos tienen que sean compatibles con la app?
+- El nt-link G es compatible con click
+Respuesta técnica:
+Los equipos compatibles con la app son:
+-Nt-Link G/GE/3G/4G
+-Nt-A2K8/4NG
+-NT-Com 3G
+-Wi-Fi App
+-Wi-Fi App A2K48
+========================================
+
+Tema de consulta: Nt-Link GE
+Preguntas comunes de los usuarios:
+- El NTLink GE es compatible con la app click?
+- El NTLink GE es compatible con la app click?
+- los ntlink ge se puede usar con click
+- los ntlink ge se puede usar con click
+- se puede usar un ntlink ge con click
+- se puede usar un ntlink ge con click
+- son compatibles los ntlink ge con la app?
+- son compatibles los ntlink ge con la app?
+- existe algún firmware que permita usar un ntlink ge con la app?
+Respuesta técnica:
+Los nt-link GE se pueden transformar en nt-link con click, pero pierden la posibilidad de comunicación por ethernet
+========================================
+
+Tema de consulta: error en app
+Preguntas comunes de los usuarios:
+- comando app error 2004
+- cual es el error 2004
+- En la app de click cuando quiero activar me tira error 2001
+- Y me sale error 2006 no tiene acciones asignada
+- me tira falla 2005 no tengo cuentas asociadas
+- Entiendo cual es la falla 1004
+- Mando un pánico y dice 1004
+- me dice que no tengo clave asignada
+- se puso hace un ratito en error 1004 y no me abre el teclado
+- A veces cuando envío un comando me dice en rojo 0005
+- Y a veces cuando funciona la aplicación devuelve error 2005
+- Cuando envío un comando la app me da error 0005
+- La aplicación me da error 0005
+- que significa el error 0005
+- la app me dice que no tengo cuentas asociadas
+- Le aparece ahora el código 2002 no tiene clave asignada
+- Me llamaron clientes que el equipo comunica pero les pone no hay comunicador activo
+- Le sale código error 2004 no tiene acceso al web service
+- en la app me aparece ahora el código
+- cuando mando alguna acción me tira el error 2001
+- El mío marca siempre error 0005
+- Error 0005 en la app es de señal?
+Respuesta técnica:
+
+========================================
+
+Tema de consulta: eventos
+Preguntas comunes de los usuarios:
+- ¿Cuál sería el evento informe de panel no activado?
+- Qué significa informe de panel no activado?
+- A que se llama informe de panel no activado?
+- A que se deben estos eventos de Informe de panel no activado
+- en el historial de eventos dice Informe de panel no activado
+- Esa cuenta también está reportando la señal Falla de comunicación
+- Hace rato me tira falla de vínculo y al toque restablecer
+- Nt-com falla de vínculo que significa?
+- Qué es la leyenda falla de vínculo, a que corresponde?
+- porque me llegan eventos de falla de vínculo
+- que significan las señales de falla de vínculo
+- Esa cuenta también está reportando la señal con el código E354, Falla de comunicación
+- Me sale un evento de falla de comunicación
+- Y luego tira la falla de comunicación
+- A qué corresponde esa falla de comunicación?
+- Me arroja mucha falla de comunicación
+- Me están llegando eventos que dice falla de comunicación
+- Ese fallo de comunicación sigue apareciendo, será algo de configuración del panel?
+- Se está observando una falla de comunicación frecuente cada vez que se hacen pruebas
+- La falla de comunicación del panel no se va a quitar?
+- saben como lo soluciono el evento de test llega como anormal?
+- Están llegando varios test de reporte anormal, que podría ser?
+- que significa el evento Test de reporte anormal 1608
+- Y me manda falla bus de datos
+- Lo último que tenemos que no son testeos es una falla de bus de datos
+- Y error en el bus de datos?
+- Alguien sabe que significa  activación reciente
+- Veo en los eventos esa falla en bus de datos
+- me estan llegando señales de falla de bus de datos
+- Que significan los eventos deshabilita stq y si influye en monitoreo
+- que son los eventos habilita stq y deshabilita stq
+- que son las señales habilita stq y deshabilita stq
+- tengo el histórico lleno de señales que dicen habilita stq
+- Si ingreso a mi cuenta veo varios eventos habilita stq deshabilita stq reiteradas veces
+- en el historial de señales estamos viendo muchos habilita y deshabilita stq
+- que es la señal e700 y r700?
+Respuesta técnica:
+
+========================================
+
+Tema de consulta: Niveles de señal
+Preguntas comunes de los usuarios:
+- Con esos niveles de señal esta bien para que funcione la app?
+- Cual es el nivel de señal normal
+- cuales son los valores normales de señal?
+- Es para controlar los niveles de señal por el tema de las caídas
+- Cuáles son los niveles de señal normales
+- con que niveles de señal transmite bien un comunicador?
+- cual es el nivel de señal correcto para los comunicadores?
+- Como puedo ver los niveles de señal del comunicador?
+- Donde veo los niveles de señal del comunicador?
+- cuales son los valores normales de señal?
+- Me podrán decir en que parámetros tendría que estar la señal?
+- Que puedo hacer si tengo bajos los niveles de señal
+- Cuáles son los niveles de señal que están correctos
+- Donde tengo que ingresar para ver señal
+Respuesta técnica:
+Para ver los niveles de señal del comunicador (en los modelos que utilizan SIM) tenemos dos opciones:
+1.Por medio de la platafoma Beat, se muestra el nivel de señal en un gráfico de barras y los colores representan: verde (nivel alto); amarillo (nivel medio); rojo (nivel bajo).
+2.Por medio de un mensaje de texto, enviando un info#7764# al número de línea del sim que tiene puesto el comunicador, responderá con la información correspondiente, ahí se muestran los niveles de señal en dbm (-51dbm a -113dbm), para que sea estable la señal debe estar cerca del -51dbm, -80dbm es el límite para la estabilidad.
+Cuándo el comunicador tiene baja señal o una señal inestable, recomendamos mover de lugar el comunicador, probar con tarjetas SIM de diferentes operadores celulares, agregar una antena de 6dbi
+========================================
+
+Tema de consulta: Tiempo Heart Beat
+Preguntas comunes de los usuarios:
+- Donde dice tiempo heart beat que le pongo?
+- Donde dice tiempo heart beat que le pongo?
+- Qué es el heart beat y cuál es el número que debería quedar?
+- Qué es el heart beat y cuál es el número que debería quedar?
+- para que se usa el heart beat y cuál es el número que debería poner?
+- para que se usa el heart beat y cuál es el número que debería poner?
+- Donde dice tiempo heart beat cuanto hay que ponerle?
+- Ese heart beat quien lo recibe, debo colocarlo en 5?
+- como se si no me llega un heart beat
+- como me entero si no me llega un heart beat
+Respuesta técnica:
+El equipo envía periódicamente una señal de Heart Beat, con el fin de monitorear su correcto funcionamiento. De fábrica, el tiempo de período de esta señal es de 5 minutos y se recomienda no cambiarlo. En el caso de los comunicadores que transmiten a través de los servidores de Click, estos heart beat no seran retransmitidos a la central de monitoreo, solo en caso que estos heart beat dejen de llegar se enviara a monitoreo la señal E700 para informar la falta de transmisión. Al restablecer se enviara la señal R700. Estas 2 señales deben cargarse en el software de monitoreo para poder interpretarlas en caso que llegue alguna.
+========================================
+
+Tema de consulta: Eventos Click y eventos de panel
+Preguntas comunes de los usuarios:
+- Como llega discriminado cada comando de usuario a la plataforma? por dispositivo? o por usuario?
+- Un pánico WEB service puede quedar en algún histórico según qué usuario lo mandó?
+- Como se diferencio los eventos de panel y de webservice?
+- que diferencia hay entre los eventos de panel y de webservice?
+- En Click mánager quiero que los nombres de los usuarios que activan o desactivan aparezcan así sabemos quienes son
+- Hay una opción de eventos silenciosa y otra Sonora desde click?
+- los eventos de click no hacen sonar la sirena
+- los eventos de web service no hacen sonar la alarma
+- Si tiro un pánico de teclado suena pero desde la app lo hace silencioso
+- con el panico de webservice no suena la sirena
+- que puedo haber hecho mal para que no suene la alarma
+- cuando envio un panico desde la app no suena la alarma
+- Los eventos que se generan directamente del panel si llegan al softguard pero los eventos que se generan desde el app no llegan
+Respuesta técnica:
+Evento por panel : Son eventos enviados desde el panel de alarma, lo mismo que se presionara desde el panel físico, va a llegar a la central de monitoreo exactamente igual que si se presionara en el panel y en la aplicación de click se va a mostrar como si se hubiese presionado el evento en el teclado, no va a figurar ningún número de usuario. 
+ Evento por web service: No pasa por el comunicador ni por el panel de la alarma, este va directamente de la aplicación de click al servidor de click y a la central de monitoreo, la diferencia que tiene es que en la aplicación de click va a mostrar quien la envió, si hay varios usuarios y dispositivos para una misma cuenta, va a mostrar el usuario que presionó el evento y a la central de monitoreo le va a llegar sin usuario. 
+ Evento con usuario: Para la aplicación de click es lo mismo, pero en este caso para la central de monitoreo el evento llegará con un usuario, a cada dispositivo hay que cargarle un usuario distinto (número de usuario), hay que cargar en la plataforma de click mánager en la parte de usuarios el nombre de usuario correspondiente, para que en el historial de eventos llegue con el nombre de la persona que lo envió. 
+ Eventos Click (con usuario) y eventos de panel: https://youtu.be/rQmyO6Pn2ao
+========================================
+
+Tema de consulta: actualizar firmware
+Preguntas comunes de los usuarios:
+- tienen firmware compatible con click y con monitoreocom
+- queria saber si hay algo que me permite monitoreocom y click en simultaneo
+- Ese firmware está bien para monitoreocom?
+- quería preguntar si me pueden pasar el firmware de Paradox para un NT link 3g
+- quiero actualizar versión de firmware por beat
+- se puede actualizar el firmware en forma remota?
+- Cómo actualízo firmware con el cable?
+- como actualízo firmware por beat
+- quieren enviarme el archivo de actualización de los ntlink 3g así no los molesto cada vez que tengo que cambiar uno
+- tengo un equipo para actualizar
+- como hago para actualizar el firmware en forma remota?
+- como hago para actualizar por beat?
+- necesito que me actualicen el firmware de un equipo
+- Para que me actualicen el firmware de un equipo
+- Te puedo pasar un equipo para actualizar?
+- me pueden actualizar el firmware de un equipo
+- necesito ayuda para actualizar un equipo
+- quisiera actualizar a click
+- actualicen para Click este equipo
+- Habrá posibilidad que actualicen este equipo a click
+- Necesito actualizar un comunicador para usarlo con click
+- necesitaría saber si pueden actualizar el firmware a uno compatible con monitoreo
+- podrán actualizar a click este comunicador
+- necesito actualizar a click un equipo
+- podrían cambiarle el firmware una comunicador
+- Le pueden actualizar el firmware?
+- Los molesto para solicitarle que me actualicen un equipo firmware para Click
+- Como actualizo el firmware
+- Pero como hago para cambiar el firmware
+- Como cambio el firmware de un equipo
+- hay forma de hacer una actualización de firmware de equipo por sms
+Respuesta técnica:
+Por medio de la plataforma Beat se puede actualizar el firmware en forma remota. El comunicador debe estar conectado. En la mayoria de los casos es necesario reprogramar los comunicadores después de actualizar el firmware.
+Para actualizar el firmware usando el cable, después de conectar el cable de programación a un puerto USB de la computadora, abra el administrador de dispositivos de Windows, luego la solapa (Puertos COM y LPT) haciendo click en el signo (+) y tome nota del nombre del puerto COM asignado al cable, este debe ser menor a 10, caso contrario arrojará error https://www.youtube.com/watch?v=7yK28AKGJWA&list=PL9b8g4bpxSReQCu_IW2bqnQzW7ejJ9We6&index=3
+========================================
+
+Tema de consulta: firmware y programacion
+Preguntas comunes de los usuarios:
+- Si realizo un cambio de firmware eso afecta la programación o sigue reportando?
+- pero al actualizar pierden los números de abonados
+- si actualizo el firmware tengo que volver a programar el equipo?
+- cuando se actualiza por beat se mantiene la programación?
+- después de actualizar por beat hay que volver a programar?
+- Una vez que se actualiza el firmware via remoto con beat de un equipo se pierde las configuraciones previas?
+- hay que programarlo nuevamente?
+- Si cambio el firmware pierdo la programación?
+- un equipo fue actualizado pero no está transmitiendo y no lo encuentro en click
+- Desde que actualize el firmware del comunicador para tenerlo en las plataformas no puedo hacer que comunique nada
+- actualice unos equipos pero no los encuentro en click
+- actualice el firmware de un ntlink y no se ponen verdes las luces
+- despues de actualizar el firmware con beat lo tengo que volver a programar?
+- despues de actualizar el firmware con beat lo tengo que volver a configurar?
+- actualizamos un equipo y ahora no conecta
+- después de actualizar el firmware de un equipo dejó de transmitir
+- actualizamos un comunicador y no volvió a transmitir
+- es necesario programar de nuevo el equipo después de actualizarle el firmware?
+- lo tengo que volver a programar?
+- Si actualizo por Beat un comunicador wifi se desconfigura
+Respuesta técnica:
+Depende del modelo de comunicador y de firmware puede que despues de actualizarlo lo tenga que volver a programar. Si es solo cambio de número de versión manteniendo el modelo de firmware, se mantiene la programación. Si cambia de firmware por otro con un nombre distinto la programación se pierde y hay que reprogramarlo. La excepción a esto son los modelos WiFi que mantienen la programación de la red.
+========================================
+
+Tema de consulta: Firmware compatible con click
+Preguntas comunes de los usuarios:
+- tenemos que actualizar el firmware para poder usarlo con click?
+- tenemos que actualizar el firmware para poder usarlo con click?
+- Que firmware son compatibles con click
+- Que firmware son compatibles con click
+- que firmware tengo que poner para poder usar la app
+- para poder usar los equipos con la app tienen que tener algún firmware en particular
+- que versión de firmware hay que cargarle al equipo para poder usarlo con click?
+- a partir de que versión el firmware es compatible con click
+- que versión de firmware tengo que ponerle a un equipo para que funcione con click?
+Respuesta técnica:
+common_response_firmware_click
+========================================
+
+Tema de consulta: Archivo actualizador erroneo
+Preguntas comunes de los usuarios:
+- Intenté cambiar el firmware a un equipo cuando inicio el programa se apagó el comunicador y no volvió a encender
+- Intenté cambiar el firmware a un equipo cuando inicio el programa se apagó el comunicador y no volvió a encender
+- tengo ntlink 3g que al actualizar firmware quedaron muertos
+- Ahora intento actualizarlo y queda la ventana de comandos en encienda la placa
+- actualice el firmware y quedó apagado y no enciende mas
+- actualice el comunicador pero ahora no enciende
+- cargó el firmware desconecte todo pero ahora la placa no enciende, ningún led se prende apagados
+- Al momento de querer actualizar el firmware no me enciende la placa y el programa unico no me reconoce el comunicador
+- le cambie el firmware a un ntlink y ahora no enciende
+- quiero actualizar el firmware pero el equipo queda apagado
+Respuesta técnica:
+Puede que se esté utilizando el archivo que no corresponde con esa placa, el archivo actualizador lo pueden descargar directamente desde beat.
+Actualización de firmware: https://youtu.be/zJ7ADBowt9k.
+O nos pueden dar el número de serie del comunicador y nosotros le pasamos el archivo actualizador correspondiente
+========================================
+
+Tema de consulta: greeting
+Preguntas comunes de los usuarios:
+- Hola
+- Hola como les va?
+- Hola como estan?
+- hola bot
+- Hola
+- Hola como les va?
+- Hola como estan?
+- Hola
+- Hola como les va?
+- Hola como estan?
+Respuesta técnica:
+Hola!
+========================================
+
+Tema de consulta: goodbye
+Preguntas comunes de los usuarios:
+- Bye
+- Saludos
+- Chau
+- hasta mañana
+- chau bot
+- Bye
+- Saludos
+- Chau
+- hasta mañana
+- Saludos
+- Chau
+- hasta mañana
+Respuesta técnica:
+Saludos
+Chau usuario
+Saludos
+Bye!
+Nos vemos
+========================================
+
+Tema de consulta: Buenas
+Preguntas comunes de los usuarios:
+- buen día
+- Buenos días
+- Buenas tardes
+- Buenas noches
+- Buenos días bot
+- buen día
+- Buenos días
+- Buenas tardes
+- Buenas noches
+Respuesta técnica:
+Buen día/tarde!
+Buen día/tarde usuario!
+========================================
+
+Tema de consulta: Buen finde
+Preguntas comunes de los usuarios:
+- buen finde para todos
+- buen finde para todos
+- buen finde
+- Buen fin de semana
+- buen finde
+- Buen fin de semana
+- Buen fin de semana bot
+- Disfruten el fin de semana
+- buen fin de semana descansen
+- Que pasen un lindo fin de semana!
+Respuesta técnica:
+Buen fin de semana!
+Buen fin de semana usuario!
+Buen finde!
+Buen finde usuario!
+Disfruten el finde!
+Que pasen un lindo fin de semana!
+========================================
+
+Tema de consulta: horario
+Preguntas comunes de los usuarios:
+- mañana a que hora están
+- cual es el horario de atención
+- en que horario trabajan
+- hasta qué hora dan soporte ustedes
+- Hasta que hora estas
+- cual es el horario en el que trabajan
+- a que hora trabajan
+- en que horario comienzan a atender
+- que horario hacen?
+- en que horario los encuentro
+- en que horario atienden
+- en que horario comienzan a trabajar
+- a que horario los puedo molestar
+Respuesta técnica:
+el horario de atención oficial (lunes a viernes de 9 a 17 hs)
+========================================
+
+Tema de consulta: manuales
+Preguntas comunes de los usuarios:
+- Me podrías facilitar los instructivos
+- Si llega a haber algún manual deba tener por favor enviarlo también
+- de donde puedo descargar la documentación o instructivo de click manager
+- tienen alguna documentación o manual de 
+- Esta esa documentación en algún lado?
+- de donde puedo descargar un manual para 
+- como funciona la plataforma BEAT?
+- existe un manual que me puedan pasar
+- tienen un link de descarga de un manual
+- tienen algún manual de
+- podrían enviarme si tenes un pdf para
+- me puedo descargar en manual de la app de algún lugar
+- me pueden pasar un link para descargar el manual de 
+- con el cable de programación como se hace?
+- Me recuerdan si hay algún tutorial para el soft de 
+- Hay algún explicativo de como programar un comunicador con 
+- Hay algún manual de usuario de cómo programar un comunicador con 
+- Puedo configurar con el conector bluethooth a través del celular?
+- Tendrás algún instructivo para el programador Bluetooth Se programa con la app 
+- Yo los comunicadores los programo por pc con el cable. Puedo hacer lo mismo desde el telefono con algún cable o bluetooth?
+- Podrán enviarme el manual de instalación del equipo wifi para alonso a2k8
+- tendrán para pasarme el manual de del equipo wifi para alonso
+- Necesito el manual de un equipo wifi para alonso
+- de donde puedo sacar el manual para un comunicador wifi compatible con alonso
+- tienen algún manual de ?
+- donde puedo obtener información?
+- tienen un instructivo de ?
+- me pasan un manual de cual es la funcion de?
+- Que se puede hacer con la plataforma beat
+Respuesta técnica:
+En esta página puede encontrar todos nuestros manuales. https://www.netio.com.ar/manuales.html
+========================================
+
+Tema de consulta: notificaciones
+Preguntas comunes de los usuarios:
+- No me llegan las notificaciones
+- Alguna recomendación para que no dejen de llegar las notificaciones?
+- me dejaron de llegar las notificaciones?
+- que tengo que hacer para que me lleguen notificaciones?
+- como hago para ver las notificaciones?
+- envio comandos pero no me llega nada
+- tengo uno que no llegan las notificaciones solo el historial
+- que hace algún tiempo que no recibe las notificaciones desde la plataforma
+- no me notifica nada de eventos
+- Tengo un ntlink funcionando pero no envía notificaciones
+- tengo clientes usuarios de iPhone que no están recibiendo notificaciones de la App
+- funciona todo bien excepto que no les están llegando las notificaciones
+- sobre la app click si la misma tiene la opción de dar un alerta al cliente por evento de alarma o desactivación
+Respuesta técnica:
+Para las notificaciones push:
+1. La aplicación debe estar cerrada o en segundo plano.
+2. Los permisos de la aplicación deben estar todos aceptados en el celular.
+3. En la plataforma de click mánager debes tener seleccionados los eventos que quieres que te lleguen como notificación.
+https://youtu.be/CC_lS369SNA
+========================================
+
+Tema de consulta: Sonido en las notificaciones
+Preguntas comunes de los usuarios:
+- tiene todas las notificaciones solo que no hace ningún sonido
+- Solo es notificación push no se puede que sea sonido tipo llamada
+- Hay alguna forma de que las notificaciones suenen hasta que el usuario le preste atención?
+- Como cambio el sonido de notificación que hace en el celular
+- hay alguna manera q el evento llegue en forma sonora a su celular
+- porque sólo aparece arriba pero no le da aviso
+- No puede tener un sonido diferente a las otras aplicaciones
+- Es el mismo sonido de notificación que si entra un Whatsapp por ejemplo?
+- Lo que estaría bueno que las notificaciones sean con un sonido diferente
+- Hay alguna forma que la app notifique con alguna alarma de mayor tiempo que la de un mensaje?
+- se puede modificar el sonido de las notificaciones
+- las notificaciones suena ringtone que viene por defecto
+Respuesta técnica:
+El sonido de las notificaciones depende de la configuración del teléfono. Si se tiene desactivado el sonido de todas las notificaciones, no van a sonar. Pueden configurarse distintos sonidos para las notificaciones dentro de los ajustes de notificaciones del teléfono.
+========================================
+
+Tema de consulta: Número de particiones que se puede manejar
+Preguntas comunes de los usuarios:
+- Hasta cuántas particiones permite click
+- Hasta cuántas particiones permite click
+- Click maneja las 2 particiones o puede manejar 4 particiones?
+- Los Nt-Link aceptaban 8 particiones?
+- quería consultarles como puedo permitirle al cliente que desactive y active particion 2 desde click
+- cuantas particiones se pueden programar en los ntlink y en la app
+- hay algún limite en la cantidad de particiones que puede manejar la app
+- con cuantas particiones es compatible la app?
+- se le puede poner un wifi para poder activar las particiones por separado
+- se le puede habilitar teclado en cada una de las particiones
+- Cantidad de particiones que se puede manejar con ntlink y la app
+- cuántas particiones puedo manejar con click
+Respuesta técnica:
+En las particiones 1, 2, 3 y 4 se puede usar click al 100%. Particiones 5, 6, 7 y 8 se puede ver el historial de eventos y recibir notificaciones, pero no se pueden usar comandos (armar, desarmar, etc). Todas se manejan como cuentas individuales en la app incluso el teclado. (Los sin click la versión 6.2.0 los con click versiones 7.1.1 para arriba).
+En este link le compartimos documentación relacionada https://drive.google.com/file/d/1k1--BYqkQ_VBaFKGWFNT_2IpOIv7Ot06/view
+
+Y un video explicativo https://youtu.be/mMYRnN4nbec
+========================================
+
+Tema de consulta: Nt-Com con Click
+Preguntas comunes de los usuarios:
+- Como es la conexión y programación de ntcom 2 así funciona con click
+- Como es la conexión y programación de ntcom 2 así funciona con click
+- Pero no encuentro la conexión y programación de las pgm
+- El ntcom no tiene app?
+- se puede usar un ntcom con la app?
+- se puede usar un ntcom con la app?
+- Estoy programando ntcom2 con app el comando para el key switch me lo podrían indicar. No puedo hacer que funcione utilizo 12=X0:3
+- Te quería preguntar por un comunicador el Ntcom 2
+- tengo unas consultas sobre el comunicador ntcom 2
+- Hay alguna configuración especial que se deba realizar en el panel para usarlo con un ntcom
+- se puede programar un NtCom la salida XO anclada?
+Respuesta técnica:
+La programación de los Nt-com 3G es igual a la de los otros comunicadores, sumando que también hay que programar el número de abonado en la alarma. Funcionan con todo panel que transmita vía telefónica en contactID. Para usar con Click estos comunicadores no tienen acceso al bus de datos, por lo que las funciones de teclado no son compatibles. Se puede activar/desactivar usando la salida del comunicador, conectada una zona del panel configurada como llave. Luego, programar los comandos en la aplicación para que envíe un pulso a la salida y de esa manera se active la zona durante unos segundos y el panel arme o desarme. Los otros comandos que se pueden configurar en una cuenta que tenga un Nt-com 3G son los eventos que se envían por webservice.
+Manual del comunicador:
+https://drive.google.com/file/d/1T8Hd2nkXKNBUUaVMz2Yk03T_ZhI0qUJ2/view
+========================================
+
+Tema de consulta: reset a fábrica
+Preguntas comunes de los usuarios:
+- A través de Beat se puede volver a valores de fábrica
+- Como puedo llevar un ntcom a valores de fábrica?
+- Se puede resetear un equipo con Beat
+- Cómo reseteo un Nt-Com?
+- Necesito si me pueden pasar el o los mensajes de reseteo para un ntcom 2
+- necesito resetear un equipo a fábrica lo puedo hacer con Beat?
+- necesito dejar a valores de fábrica este equipo
+- como hago para resetear a valores de fábrica un equipo
+- como hago para resetear a valores de fábrica un equipo
+- Como hago para reseteo de los equipos a la distancia
+- Me mandas lo que le tengo que mandar para resetear???
+- puedo usar beat para resetear un equipo a los valores de fábrica?
+- cual es el mensaje para resetear un equipo
+- como se hace para resetear modo fabrica el comunicador que tengo el nt link 3g
+- como reseteo a fabrica un comunicador?
+- Me pasas como seria para sms resetear a fabrica?
+- Necesito el comando para resetear un comunicador por sms
+- Hay algun sms para resetear un ntlink 3g
+Respuesta técnica:
+1.Mediante Unico: Unico cuenta con un botón de Reset en la última pestaña.
+2.Mediante SMS: Para restablecer los valores de fábrica, se opera de la misma forma que para cambiar la clave de programación pero como clave nueva se debe usar la clave reservada 2572, el sms quedaría: prog#7764#clave:7764#2572, los comunicadores no envían mensaje de respuesta al reset de programación, no puede realizarse el reset de programación mediante sms si el servicio 1 se encuentra deshabilitado (en 0).
+3.Conectando un teléfono en el rj11 del equipo (NTCom), escuchar el tono y discar #7764*#7764#2572*
+========================================
+
+Tema de consulta: Estados del Panel
+Preguntas comunes de los usuarios:
+- Consulta que podría generar eso en la app el triangulo con el signo de exclamación
+- Tengo un cliente que me figura este estado en la pantalla principal
+- tengo un cliente que en la app le muestra un signo de pregunta
+- Que significa cada icono en la pantalla principal
+- Que significan cada icono que aparece en la aplicacion al lado de la cuenta?
+- El dispositivo tiene un signo de pregunta
+- Por qué queda así con un signo de pregunta
+- que son los iconos en la pantalla?
+- Qué eventos cambian de icono de estado?
+- Me pueden exploicar que son los iconos que estan al lado de cada cuenta?
+- Me comentan que significan los iconos que tienen las cuentas?
+- Necesito que me expliquen mejor los estados que pueden aparecer en la App
+- Y en la app aparece el triangulo rojo
+- Y el tema de los íconos al lado del nombre el candado abierto o cerrado es el estado que se encuentra?
+Respuesta técnica:
+Los estados del panel pueden ser armada, desarmada, disparada, pánico y sin estado. El estado es representado por un icono en la app que muestra cual fue el ultimo cambio de estado y permanece hasta que otro estado lo reemplaza.
+ https://drive.google.com/file/d/1gIyB37r2BRNwsq-P_NjJiHw6zebWem5E/view?usp=sharing
+========================================
+
+Tema de consulta: Reinicio del comunicador por mensajes
+Preguntas comunes de los usuarios:
+- Hay manera de hacer por sms un reinicio del equipo?
+- Hay manera de hacer por sms un reinicio del equipo?
+- Tengo forma de reiniciar un equipo de forma remota por sms o por Beat?
+- Hay algún comando que le pueda enviar a los equipos para que se apaguen y se prendan
+- No se si se le puede mandar un mensaje para que se reinicie
+- Necesito reiniciar un equipo en forma remota
+- hay algún sms que reinicie el equipo
+- cual es el sms para reiniciar el equipo
+- hay algún mensaje que haga reiniciar al equipo
+Respuesta técnica:
+Todos los equipos se reinician automáticamente cada 4 o 24 horas según el modelo. Se puede forzar un reinicio enviándole por sms cualquier consulta de programación. Ejemplo: Prog#7764#server1:?
+========================================
+
+Tema de consulta: ntcom 3
+Preguntas comunes de los usuarios:
+- algún equipo funcione conectándolo a la línea fija de un panel de alarma
+- algún equipo funcione conectándolo a la línea fija de respaldo de un panel de alarma
+- algún equipo funcione conectándolo a la línea telefónica de un panel de alarma
+- tienen algún modelo que funcione con respaldo de línea fija
+- tienen algún modelo que funcione con respaldo de línea telefónica
+- algun modelo que tenga datos y línea fija?
+- algun modelo que tenga datos y línea telefónica?
+- a los ntlink se puede poner una línea de respaldo?
+- quiero poner un equipo que tenga de respaldo línea  fija
+- quiero poner un equipo que comunique por gprs tenga de backup línea 
+- necesito algún equipo que transmita tanto por datos como por línea telefónica
+Respuesta técnica:
+https://drive.google.com/file/d/1wcY4q8Px4Wmhsc7HAj7vEGcteoS_o_b8/view 
+El ntcom 3, transmite por 3g con respaldo de linea telefónica
+========================================
+
+Tema de consulta: Equipos en residencial
+Preguntas comunes de los usuarios:
+- Necesito ayuda con un NT wifi no aparece en la lista de dispositivos de la cuenta residencial
+- No lo encuentro en el listado de residencial por lo cual no pude migrarlo a mi cuenta
+- El tema es que poniendo los puertos 8335 no aparece en la lista de residencial como para exportarlo a mi cuenta de click
+- Porque no lo estoy viendo en la lista con la cuenta residencial
+- No lo tengo ni en residencial ni en mi cuenta
+- Tengo un cliente que quiere colocar un equipo pero sin monitoreo que las señales le lleguen solo a el y no a la central de monitoreo
+- Estoy con la cuenta residencial en la web de netio y no encuentro la cuenta
+- Tengo un equipo con click pero no me aparece el numero de serie en la cuenta residencial
+- a que puertos tengo que programar los equipos para que me aparezcan en residencial?
+- Ayer consulte por un equipo 3g si podía hacerlo comunicar directo al celular del cliente sin pasar por una empresa de monitoreo
+- Cómo configurar un comunicador con click para automonitoreo?
+- como tengo que programar los equipos si quiero hacer automonitoreo
+- Lo configure así pero no lo encuentro en la página residencial para migrarlo a mi cuenta
+- necesito los datos de programación para residencial
+- Ya cree el usuario en la pagina y ya entre a la cuenta de residencial pero el equipo no me aparece
+- me pueden guiar para configurar un nt wifi para automonitoreo?
+- Tenes un instructivo de lo que se puede hacer desde el celular con la aplicación de ustedes residencial
+- Hemos instalado un comunicador nt link 3G para usarlo en instalaciones domiciliarias
+- que datos debo cargarle al equipo para que no lleguen señales a la central de monitoreos y solo le lleguen al cliente?
+- Me pueden pasar el manual de como programar un ntlink para automonitoreo
+Respuesta técnica:
+common_response_residencial
+========================================
+
+Tema de consulta: Descargar Unico
+Preguntas comunes de los usuarios:
+- me podrán pasar el instalador para Windows 32 bits
+- me podrán pasar el instalador para Windows 32 bits
+- de donde puedo descargar
+- de donde puedo descargar
+- Me podrán pasar el Link para instalar el programa en mi pc
+- estoy teniendo problema para programar los comunicadores con el programa unico
+- si me dicen de donde ya lo descargo
+- Alguno puede pasar un link para actualizar unico
+- no estoy pudiendo bajar el programa?
+- cual es el link para descargar
+- cambié el windows y no tuve la precaución de guardar
+- tienen el instalador de la aplicación?
+- voy a instalar pero necesito el link de descarga
+- Me pasarían el link para descargar el único
+- Me pasan por favor el link para descargar unico en la pc con Windows 10 para ver si por cable puedo
+Respuesta técnica:
+
+========================================
+
+Tema de consulta: escanear redes
+Preguntas comunes de los usuarios:
+- El unico no me escanea las redes
+- el equipo dejo de escanear redes
+- no puedo leer que redes hay
+- no escanea la red wifi que queremos configurar
+- escaneo y no la encuentra a la red
+- estoy tratando de conectar un wifi pero no me esta escaneando las redes
+- Estoy con un ntlink wifi tengo que poner el nombre de red pero tiene un asterisco
+- Cuando pongo escanear queda en blanco!
+- lo tengo que reprogramar y no encuentra redes wif
+- estoy configurando un wifi pero escaneo las redes y no me aparece ninguna
+- Probé casi todo lo que me aparecía en sugerencias y nada incluso trataba de scanear la red
+- tengo inconvenientes para escanear redes wifi desde único
+- Tengo un equipo wifi que no me deja escanear las redes
+Respuesta técnica:
+Para poder escanear de forma automática las redes se necesita UniCo versión 3.1.0 o superior. Puede descargar la última versión desde https://www.netio.com.ar/software.html.
+Además se recomienda actualizar el firmware del comunicador a una versión 7.1.2 o superior.
+========================================
+
